@@ -6,8 +6,6 @@ import PhotoList from "../components/PhotoList";
 
 export default function PhotosPage({data}){
 
-    console.log(data.nodes)
-
     const photos = data.photos.nodes;
     return (
         <>
