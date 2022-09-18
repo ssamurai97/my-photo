@@ -3,7 +3,7 @@
 require('dotenv').config({path: '.env'})
 
 
-export default {
+module.exports = {
   siteMetadata: {
     title: `photos`,
     siteUrl: 'https://gatsby.photo',
